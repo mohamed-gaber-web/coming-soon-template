@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background: url(./bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative; */
+    font-family: 'Hind', sans-serif;
+
+}
+
+.coming--page{
+    background: url(./bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 756px;
+    position: relative;
+}
+
+.coming--soon--text{
+    position: absolute;
+    right: 44%;
+    left: 0;
+    top: 50px;
+    text-align: center;
+}
+
+.coming--soon--text h1{
+    font-size: 80pt;
+    color: #eb2226;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.coming--soon--text span{
+    font-size: 100pt;
+    color: #eb2226;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 58px;
+}
+
+
+.coming--soon--text p{
+    font-size: 17pt;
+    color: #131720;
+    font-weight: 400;
+    padding: 0;
+    margin: 20px 0 40px 0;
+}
+
+.coming--soon--text .social h3{
+    font-size: 16pt;
+    color: #eb2226;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+
+.coming--soon--text .social h3::after{
+    content: "";
+    background-color: #f3dfdf;
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.coming--soon--text .social h3::before{
+    content: "";
+    background-color: #f3dfdf;
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.coming--soon--text ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.coming--soon--text ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.coming--soon--text ul li a{
+    color: #000;
+    font-size: 30px;
+}
+
+
+@media(max-width: 767px){
+
+    .coming--page{
+        background: url(./bg-mobile.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 698px;
+        position: relative;
+    }
+
+    .coming--soon--text span {
+        font-size: 47pt;
+        line-height: 44px;
+    }
+
+    .coming--soon--text h1 {
+        font-size: 37pt;
+        line-height: 5px;
+        font-weight: 500;
+    }
+
+    .coming--soon--text p {
+        font-size: 11pt;
+        font-weight: 500;
+        margin: 0px 0 10px 0;
+    }
+
+    
+    .coming--soon--text .social h3 {
+        font-size: 10pt;
+    }
+
+    .coming--soon--text .social h3::after{display: none;}
+    .coming--soon--text .social h3::before{display: none;}
+
+    .coming--soon--text ul li a {
+        font-size: 20px;
+    }
+
+    .coming--soon--text ul li {
+        margin-right: 18px;
+    }
+
+    .coming--soon--text img{    
+        width: 35%;
+        margin-bottom: 6px;
+    }
+
+    .coming--soon--text {
+        right: 47%;
+        top: 37%;
+    }
+
+}
